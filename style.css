@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 2px 2px #24242426;
+    height: 13vh;
+}
+
+header div{
+    display: flex;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    width: 32vw;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+header h2{
+    margin-left: 10px;
+}
+
+@media (max-width:500px) {
+    header{
+        flex-direction: column;
+    }
+
+    header ul{
+        width: 80vw;
+    }
+}
