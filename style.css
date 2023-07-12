@@ -29,6 +29,49 @@ header h2{
     margin-left: 10px;
 }
 
+main{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main section{
+    width: 50vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1{
+    width: 19vw;
+}
+
+main div{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 19vh;  
+}
+
+button{
+    background-color: #FCA60F;
+    width: 19vw;
+    height: 8vh;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+main nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 10vw;
+}
+
 @media (max-width:500px) {
     header{
         flex-direction: column;
@@ -36,5 +79,33 @@ header h2{
 
     header ul{
         width: 80vw;
+    }
+
+    main section{
+        width: 100vw;
+        height: 58vh;
+        align-items: center;
+    }
+
+    h1{
+        width: 85vw;
+        text-align: center;
+    }
+
+    main figure{
+        display: none;
+    }
+
+    main div{
+        height: 35vh;
+        align-items: center;
+    }
+    button{
+        width: 72vw;
+        font-size: 22px;
+    }
+
+    main nav{
+        width: 50vw;
     }
 }
